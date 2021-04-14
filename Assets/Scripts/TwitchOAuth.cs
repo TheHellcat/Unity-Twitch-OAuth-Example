@@ -69,7 +69,7 @@ public class TwitchOAuth : MonoBehaviour
             "response_type=code&" +
             "scope=" + String.Join("+", scopes);
 
-        // start out local webserver to receive the redirect back after Twitch authenticated
+        // start our local webserver to receive the redirect back after Twitch authenticated
         StartLocalWebserver();
 
         // open the users browser and send them to the Twitch auth URL
