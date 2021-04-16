@@ -16,7 +16,7 @@ A quick example of how to do Twitch OAuth using a local "webserver" to receive t
 - Open the project in Unity
 - In Unity, open the scene `Scenes/SampleScene`
 - Click on the `TwitchAuth` gameobject in the hierarchy of the scene
-- Set the values `Twitch Clien ID` and `Twitch Client Secret` to the ones you noted above on the Twitch side
+- Set the values `Twitch Client ID` and `Twitch Client Secret` to the ones you noted above on the Twitch side
 - Hit `PLAY`
 - Click the `Authenticate with Twitch` button in the game scene.
 
